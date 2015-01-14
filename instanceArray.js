@@ -5,7 +5,7 @@
     2) Lenny, lenny@theLenster.com, 'iLoveLentilSoup'
 */
 
-var User = function(name, email, pw){
+var User = function(name, email, pw) {
   this.name = name;
   this.email = email;
   this.pw = pw;
@@ -45,5 +45,5 @@ console.log('All my users names are ');
 
 
   for (var i = 0; i < users.length; i++) {
-    console.log(users[i].name);
+    console.log(users[i]);
   };;
